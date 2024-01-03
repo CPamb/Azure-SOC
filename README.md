@@ -14,10 +14,12 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Diagram](https://github.com/CPamb/Azure-SOC/assets/149398071/db6e23ad-fae7-43c1-8fd4-5a98f0eb5f5b)
+
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![Architecture Diagram](https://github.com/CPamb/Azure-SOC/assets/149398071/807dd578-7c95-40e6-b598-556bb94e6ad9)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -34,9 +36,19 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+
+NSG Allowrd Inbound Malicious Flows
+![NSG Allowrd Inbound Malicious Flows](https://github.com/CPamb/Azure-SOC/assets/149398071/a18b2c91-a524-4e1e-8464-a5e3a8d2f387)<br>
+
+Linux Syslog Auth Failures
+![Linux Syslog Auth Failures](https://github.com/CPamb/Azure-SOC/assets/149398071/854b06af-6d28-4671-8619-1ce37991586f)<br>
+
+Windows RDP/SMB Auth Failures
+![Windows RDP/SMB Auth Failures](https://github.com/CPamb/Azure-SOC/assets/149398071/cd5c17ae-72d7-4ba9-8344-c975c2a26bb2)<br>
+
+MSSQL Auth Failure
+![MSSQL Auth Failure](https://github.com/CPamb/Azure-SOC/assets/149398071/333136be-7155-4b54-af19-75d336e9ecc5)
+
 
 ## Metrics Before Hardening / Security Controls
 
