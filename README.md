@@ -67,8 +67,8 @@ MSSQL Auth Failure
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-12-26 20:28:30
+The following table shows the metrics we measured in our insecure environment for 24 hours: <br >
+Start Time 2023-12-26 20:28:30 <br >
 Stop Time 2023-12-27 20:28:30
 
 | Metric                   | Count
@@ -85,8 +85,8 @@ Stop Time 2023-12-27 20:28:30
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-12-29 12:05:22
+The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls: <br >
+Start Time 2023-12-29 12:05:22 <br >
 Stop Time	2023-12-30 12:05:22
 
 | Metric                   | Count
