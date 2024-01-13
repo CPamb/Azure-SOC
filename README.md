@@ -97,6 +97,16 @@ Stop Time	2023-12-30 12:05:22
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
 
+## Impact of Security Controls 
+
+| Metric                                       | Change post-hardening
+| -------------------------------------------- | -----
+| SecurityEvent (Windows VMs)                  | -100.00%
+| Syslog (Linux VMs)                           | -99.91%
+| SecurityAlert (Microsoft Defender for Cloud) | -100%
+| SecurityIncident (Sentinel Incidents)        | -100%
+| AzureNetworkAnalytics_CL                     | -100%
+
 ## Conclusion
 
 In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
